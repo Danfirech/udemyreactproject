@@ -1,4 +1,5 @@
-import "./Card.css";
+import React from "react";
+import "../Expenses/Expenses";
 
 function Card(props) {
   const classes = "card " + props.className;
